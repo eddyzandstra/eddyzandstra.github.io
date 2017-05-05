@@ -1,0 +1,18 @@
+{% include header.html %}
+
+{% include title-group.html %}
+
+<main>
+  <div class="container">
+    {{ content }}
+    <hr>
+    <div class="row">
+      {% for integration in site.appstore %}
+        {% include tile-integrations.html %}
+      {% endfor %}
+    </div>
+    <hr>
+  </div>
+</main>
+
+{% include footer.html %}

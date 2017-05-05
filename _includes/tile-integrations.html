@@ -1,0 +1,14 @@
+<div class="col-sm-6 col-md-4">
+  <div class="tile">
+    {% if integration.featured_image %}
+    <a href="{{ integration.url | prepend: site.baseurl }}" class="featurette">
+      <span class="img" style="background-image: url('{{ integration.featured_image }}');"></span>
+    </a>
+    {% endif %}
+    <div class="inner-guts">
+      <h2><a href="{{ integration.url | prepend: site.baseurl }}">{{ integration.title }}</a></h2>
+      <div class="excerpt">{{ integration.excerpt }}</div>
+      <a href="{{ integration.url | prepend: site.baseurl }}" class="read-more btn btn-info btn-lg">Read More <i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+</div>

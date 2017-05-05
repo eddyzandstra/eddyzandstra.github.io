@@ -1,0 +1,10 @@
+main:
+  - { url: '/funktionen', text: 'Funktionen' }
+  - { url: '/preise', text: 'Preise' }
+  - { url: '/integrationen-apps', text: 'Integrationen & Apps' }
+  - { url: '#', text: 'Branchenlösungen' }
+  - { url: '#', text: 'Mehr' }
+
+secondary:
+   - { url: '#', text: 'Kostenlos anmelden' }
+   - { url: '/login', text: 'Login' }
