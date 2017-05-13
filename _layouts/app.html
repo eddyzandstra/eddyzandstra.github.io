@@ -1,0 +1,57 @@
+{% include header.html %}
+
+<section class="headline">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-lg-9">
+				<h1>
+					{% if page.title %}
+					{{ page.title }}
+					{% else %}
+					{{ site.data.global.title }}
+					{% endif %}
+				</h1>
+
+				{% if page.id %}
+				<div>
+					{{ page.date | date: "%m.%d.%y" }}
+					{% if page.categories != empty %}
+					&middot;
+					{% for category in page.categories %}
+					<span>{{ category }}</span>
+					{% endfor %}
+					{% endif %}
+				</div>
+				{% endif %}
+				<p class="lead">
+					{% if page.lead_text %}
+					{{ page.lead_text }}
+					{% elsif post.lead_text %}
+					{{ post.lead_text }}
+					{% else %}
+					{{ site.data.global.description }}
+					{% endif %}
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-lg-9">
+				<article>
+					{{ content }}
+				</article>
+			</div>
+			<div class="col-md-4 col-lg-3">
+				<div class="aside">
+					asdf
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</section>
+
+{% include footer.html %}

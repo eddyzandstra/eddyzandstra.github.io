@@ -1,6 +1,6 @@
 ---
-title: Wordpress
-name: wordpress
+title: Prestashop
+name: prestashop
 lead_text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae dolorem, unde iusto voluptatibus molestiae voluptate esse provident ipsam at praesentium, modi nostrum laboriosam nisi! Illum, et laudantium libero beatae consequuntur.
 excerpt: 'intro'
 date: 2017-05-05 13:26:34

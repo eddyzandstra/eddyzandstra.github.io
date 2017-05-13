@@ -5,10 +5,21 @@ plugins_dir:     ./_plugins
 layouts_dir:     ./_layouts
 data_dir: ./_data
 
+# My collections
 collections: 
   appstore:
     output: true
     permalink: /integrationen-apps/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: appstore
+    values:
+      layout: app
+      name: ""
+      featured_image: "http://placekitten.com/600/300"
 
 # Handling Reading
 safe:         false
@@ -26,7 +37,7 @@ unpublished: false
 
 # Plugins
 whitelist: []
-gems:      [jekyll-paginate]
+gems:      [jekyll-paginate, jekyll-admin]
 
 # Conversion
 markdown:    kramdown
@@ -47,7 +58,6 @@ paginate_path: /page/:num/
 timezone:      null
 
 quiet:    false
-defaults: []
 
 # Markdown Processors
 rdiscount:
