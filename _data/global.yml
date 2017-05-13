@@ -1,10 +1,10 @@
 # Site Settings
-title: 'CleverReach'
-description: 'Mit der E-Mail-Marketing Software von CleverReach erstellen und versenden Sie unkompliziert professionelle E-Mail-Kampagnen. Außerdem können Sie Ihre Empfänger perfekt verwalten und profitieren von intuitiven Reports.'
-#url: 'http://www.cleverreach.com/' # the base hostname & protocol for your site
+title: 'title'
+description: 'description'
+#url: 'http://www.url.com/' # the base hostname & protocol for your site
 footer_text: 'Made with ♥ in Germany'
 
 # Admin Settings
-admin_name: 'eza'
-admin_email: 'eza@cleverreach.com'
+admin_name: 'e'
+admin_email: 'e'
 
